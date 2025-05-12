@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Ease Style Web</title>
+  <link rel="stylesheet" href="webai.css">
+</head>
+<body>
+  <div class="container">
+    <header class="card">
+      <h1>Selamat Datang di AI Ease Clone</h1>
+      <p>Masukkan prompt Anda dan lihat hasilnya.</p>
+    </header>
+
+    <section class="card">
+      <h2>Masukkan Prompt</h2>
+      <textarea id="userInput" rows="4" placeholder="Contoh: Jelaskan teori relativitas..."></textarea>
+      <button onclick="handleSubmit()">Kirim</button>
+    </section>
+
+    <section class="card">
+      <h2>Hasil</h2>
+      <div id="output">
+        <p>Hasil akan muncul di sini...</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
